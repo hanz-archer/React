@@ -1,25 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+function MyButton() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Sample <code>pani</code> magbuhat ko rong summer
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <button>Button</button>
   );
 }
 
-export default App;
+export default function MyApp(){
+  return(
+    <div>
+      <h1>Welcome to Hans Archer's Page</h1>
+      <MyButton />
+    </div>
+  );
+}
